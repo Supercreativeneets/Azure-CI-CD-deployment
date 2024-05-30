@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM2.5 Forecast</title>
+</head>
+<body>
+    <h1>PM2.5 Forecast</h1>
+    <form method="post" action="/" onsubmit="return onSubmitForm()">
+        <label for="date">Select a date:</label>
+        <select name="date" id="date">
+            <option value="">-- Select a date --</option>
+            {% for date in dates %}
+            <option value="{{ date }}">{{ date }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit" id="forecastBtn">Forecast</button>
+    </form>
+</body>
+</html>
+

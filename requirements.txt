@@ -1,0 +1,12 @@
+glob2
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+dill
+tensorflow
+flask
+
+
+-e .
