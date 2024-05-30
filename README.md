@@ -1,5 +1,5 @@
 # 1. Introduction
-    This project is a demonstration of applying Deep Learning techniques in time-series analysis for air  pollution (PM2.5) forecasting. It features a sophisticated end-to-end ML pipeline that integrates MLOps practices to ensure scalability, maintainability, and efficient deployment in production environments.
+This project is a demonstration of applying Deep Learning techniques in time-series analysis for air  pollution (PM2.5) forecasting. It features a sophisticated end-to-end ML pipeline that integrates MLOps practices to ensure scalability, maintainability, and efficient deployment in production environments.
 
 # 2. Project Setup
 * **Version Control and Collaboration:** Leveraged GitHub for robust version control, enabling seamless collaboration and code management.
